@@ -24,9 +24,12 @@ class Node():
     
     def set_value(self, value: str) -> None: 
         self._value = value 
+    
+    def get_parent(self) -> 'Node':
+        return self._parent
 
     def add_left_child(self, child: 'Node') -> None:
-        if child == None 
+        if child == None: 
             self._left_child = None 
             return 
         self._left_child = child
