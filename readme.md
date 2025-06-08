@@ -22,4 +22,12 @@ This repository contains implementations of fundamental data structures in Pytho
 - Simpler structure
 - Insertions are `O(1)` and removals (min extraction) are `O(n)`.
 
+### Undirected Graph (Edge List)
+- Implements an **undirected graph** using the **edge list** representation.
+- Maintains a sequence of vertices and a sequence of edges.
+- Each edge stores references to the two vertices it connects.
+- Supports operations like:
+  - Insert/remove vertex
+  - Insert/remove edge
+  - Query for opposite vertex
 
