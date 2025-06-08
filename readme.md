@@ -1,6 +1,6 @@
 # Data Structures in Python
 
-This repository contains implementations of fundamental data structures in Python, including both linear and priority queue structures. Each folder corresponds to a self-contained module focused on a particular data structure.
+This repository contains implementations of fundamental data structures in Python. Each folder corresponds to a self-contained module focused on a particular data structure.
 
 ## Project Structure
 
@@ -19,7 +19,7 @@ This repository contains implementations of fundamental data structures in Pytho
 
 ### Priority Queue (List-based)
 - Implements a **list-based** min priority queue.
-- Simpler structure suitable for small-scale or educational use.
+- Simpler structure
 - Insertions are `O(1)` and removals (min extraction) are `O(n)`.
 
 
