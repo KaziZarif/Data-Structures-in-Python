@@ -8,5 +8,5 @@ class Vertex(Generic[T]):
     def __init__(self, element: T) -> None:
         self._element = element 
 
-    def get_element(self) -> T
+    def get_element(self) -> T:
         return self._element
